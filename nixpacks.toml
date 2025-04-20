@@ -1,8 +1,5 @@
 [phases.setup]
-nixPkgs = ["python369", "pip"]
-
-[phases.install]
-cmds = ["pip install -r requirements.txt"]
+nixPkgs = ["python39", "pip"]
 
 [start]
-cmd = "Refresh P1 - FTP to Supabase.py && Refresh P2 - Supabase to FTP.py && Refresh P3 - New Entry FTP to Supabase.py"
+cmd = "python Refresh P1 - FTP to Supabase.py"
