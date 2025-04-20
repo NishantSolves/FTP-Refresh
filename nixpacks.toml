@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["python310", "pip"]
+nixPkgs = ["python369", "pip"]
 
 [phases.install]
 cmds = ["pip install -r requirements.txt"]
